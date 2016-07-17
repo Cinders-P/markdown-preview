@@ -1,52 +1,59 @@
 body,
 html {
-  font-family: Oxygen, Helvetica, Verdana, sans-serif;
-  padding: 0;
-  margin: 0; }
-
-#header {
-  position: absolute;
-  width: 100%;
-  height: 160px;
-  background-color: #d1ebb5;
-  z-index: -1; }
+    font-family: Oxygen, Helvetica, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
 
 .wrapper {
-  padding: 8vh 30px 0 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .wrapper > h1 {
+    padding: 8vh 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper> h1 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 6vh;
     font-weight: 700;
     font-size: 3.2rem;
     margin-top: 0vh;
-    white-space: nowrap; }
+}
 
 @media (max-width: 655px) {
-  .wrapper > h1 {
-    font-size: 2.2rem; } }
+    .wrapper> h1 {
+        font-size: 2.2rem;
+    }
+}
+
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-  .container > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container> div {
     display: flex;
     box-sizing: border-box;
     height: 60vh;
     width: 100vw;
     padding: 30px;
-    max-width: 600px; }
-    .container > div > * {
-      flex-grow: 1;
-      padding: 15px;
-      font-size: 16px;
-      resize: none; }
-    .container > div:nth-child(2) {
-      padding-top: 0;
-      height: 57vh;
-      overflow: auto; }
+    max-width: 600px;
+}
+
+.container> div> * {
+    flex-grow: 1;
+    padding: 15px;
+    font-size: 16px;
+    resize: none;
+}
+
+.container> div:nth-child(2) {
+    padding-top: 0;
+    height: 57vh;
+    overflow: auto;
+}
+
 
 /*# sourceMappingURL=style.css.map */
